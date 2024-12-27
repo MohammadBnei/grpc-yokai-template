@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package personalword;
+
+import "message.proto";
+
+// ------------------------------------------------- Word
+
+service PersonalWordService {
+  rpc SaveWord(SaveWordRequest) returns (SaveWordResponse);
+
+}
+
+message SaveWordRequest {
+  string word = 1;
+  string user_id = 2;
+  string list_id = 3;
+}
+
+message SaveWordResponse {
+  Word word = 1;
+}

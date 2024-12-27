@@ -1,0 +1,13 @@
+.github
+build
+dist
+.env
+.gitignore
+.golangci.yml
+compose.yml
+CHANGELOG.md
+dev.Dockerfile
+LICENSE
+Makefile
+package.json 
+README.md
