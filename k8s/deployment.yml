@@ -18,9 +18,9 @@ spec:
       containers:
         - image: mohammaddocker/vos-personal-words
           name: vos-personal-words
+          args: ["run"]
           ports:
             - containerPort: 3000
-          args: ["run"]
           resources:
             limits:
               cpu: 400m
@@ -30,4 +30,4 @@ spec:
               value: "3000"
           envFrom:
             - secretRef:
-                name: managed-secret-server
+                name: managed-personal-words-secret

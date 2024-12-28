@@ -4,8 +4,11 @@ ENV CGO_ENABLED=0
 ENV GOOS=linux
 
 WORKDIR /src
-COPY . .
+
+COPY ["go.mod", "go.sum", "./"]
 RUN  go mod download
+
+COPY . .
 RUN go build -o /app
 
 ## Multistage deploy

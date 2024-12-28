@@ -7,8 +7,8 @@ resources:
   - deployment.yml
   - secret.yml
   - service.yml
+  - job.yml
 
 images:
-  - name: store-server
-    newName: mohammaddocker/vos-personal-words
-    newTag: 0.1.0
+  - name: mohammaddocker/vos-personal-words
+    newTag: 0.4.5
