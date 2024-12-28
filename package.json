@@ -1,14 +1,14 @@
 {
-  "name": "vos-personal-words",
+  "name": "vos-personal-words-template",
   "version": "0.2.11",
-  "description": "Microservice used to manage words saved by a user.",
+  "description": "Template of a microservice using yokai.",
   "repository": {
     "type": "git",
-    "url": "github.com/MohammadBnei/vos-personal-words"
+    "url": "github.com/MohammadBnei/grpc-yokai-template"
   },
   "keywords": [
     "go",
-    "voc-on-steroid",
+    "template",
     "yokai"
   ],
   "author": "Mohammad-Amine BANAEI",
