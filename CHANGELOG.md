@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.2.11](https://example.com/github.com/MohammadBnei/vos-personal-words/compare/0.2.10...0.2.11) (2024-12-27)
+## [0.2.11](https://github.com/MohammadBnei/vos-personal-words/compare/0.2.10...0.2.11) (2024-12-27)
 
 
 ### Bug Fixes
 
-* **ci:** preventing infernal circle for real now ([98abdd4](https://example.com/github.com/MohammadBnei/vos-personal-words/commits/98abdd42ec263f877af7efd5b057a0441de26928))
-* **ci:** preventing infernal cycle ([9684a72](https://example.com/github.com/MohammadBnei/vos-personal-words/commits/9684a72d78863dbc48adf67220d22ff0a48c0714))
+* **ci:** preventing infernal circle for real now ([98abdd4](https://github.com/MohammadBnei/vos-personal-words/commits/98abdd42ec263f877af7efd5b057a0441de26928))
+* **ci:** preventing infernal cycle ([9684a72](https://github.com/MohammadBnei/vos-personal-words/commits/9684a72d78863dbc48adf67220d22ff0a48c0714))
 
 ## [0.2.4](https://github.com/MohammadBnei/vos-personal-words/compare/0.2.3...0.2.4) (2024-12-27)
 
