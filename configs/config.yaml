@@ -44,7 +44,7 @@ modules:
           expose: true
   grpc:
     server:
-      address: ${PORT:50051}
+      address: ":${PORT}"
       reflection:
         enabled: true
       trace:

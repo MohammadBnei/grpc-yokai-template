@@ -20,6 +20,7 @@ spec:
           name: vos-personal-words
           ports:
             - containerPort: 3000
+          args: ["run"]
           resources:
             limits:
               cpu: 400m

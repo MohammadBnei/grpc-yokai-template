@@ -7,9 +7,11 @@ require (
 	github.com/ankorstore/yokai/fxconfig v1.3.0
 	github.com/ankorstore/yokai/fxcore v1.9.0
 	github.com/ankorstore/yokai/fxgrpcserver v1.3.0
+	github.com/ankorstore/yokai/fxhealthcheck v1.1.0
 	github.com/ankorstore/yokai/fxhttpserver v1.6.1
 	github.com/ankorstore/yokai/fxorm v1.2.0
 	github.com/ankorstore/yokai/log v1.2.0
+	github.com/ankorstore/yokai/orm v1.1.0
 	github.com/ankorstore/yokai/trace v1.3.0
 	github.com/labstack/echo/v4 v4.13.3
 	github.com/samber/oops v1.15.0
@@ -23,7 +25,6 @@ require (
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/ankorstore/yokai/fxgenerate v1.2.0 // indirect
-	github.com/ankorstore/yokai/fxhealthcheck v1.1.0 // indirect
 	github.com/ankorstore/yokai/fxlog v1.1.0 // indirect
 	github.com/ankorstore/yokai/fxmetrics v1.2.0 // indirect
 	github.com/ankorstore/yokai/fxtrace v1.2.0 // indirect
@@ -31,7 +32,6 @@ require (
 	github.com/ankorstore/yokai/grpcserver v1.2.0 // indirect
 	github.com/ankorstore/yokai/healthcheck v1.1.0 // indirect
 	github.com/ankorstore/yokai/httpserver v1.5.0 // indirect
-	github.com/ankorstore/yokai/orm v1.1.0 // indirect
 	github.com/arl/statsviz v0.6.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
