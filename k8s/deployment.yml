@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: vos-personal-words
+  name: vos-template
   annotations:
     secrets.infisical.com/auto-reload: "true"
 spec:
@@ -9,15 +9,15 @@ spec:
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: vos-personal-words
+      app: vos-template
   template:
     metadata:
       labels:
-        app: vos-personal-words
+        app: vos-template
     spec:
       containers:
-        - image: mohammaddocker/vos-personal-words
-          name: vos-personal-words
+        - image: mohammaddocker/vos-template
+          name: vos-template
           args: ["run"]
           ports:
             - containerPort: 3000

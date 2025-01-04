@@ -2,7 +2,8 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: vos-template-migration-job
-  namespace: voc-on-steroid
+  annotations:
+    "argocd.argoproj.io/hook-delete-policy": HookSucceeded
 spec:
   template:
     spec:

@@ -2,7 +2,7 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: "github.com/mohammadbnei/vos-personal-words/proto"
+    default: "github.com/mohammadbnei/vos-template/proto"
 plugins:
   - plugin: go
     out: .

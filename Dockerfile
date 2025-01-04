@@ -1,5 +1,5 @@
 ## Multistage build
-FROM golang:1.23 as build
+FROM golang:1.23 AS build
 ENV CGO_ENABLED=0
 ENV GOOS=linux
 

@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/mohammadbnei/vos-personal-words/internal"
+	"github.com/mohammadbnei/vos-template/internal"
 	"github.com/spf13/cobra"
 )
 

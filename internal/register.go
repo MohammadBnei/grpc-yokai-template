@@ -6,8 +6,8 @@ import (
 	"github.com/ankorstore/yokai/orm/healthcheck"
 	"go.uber.org/fx"
 
-	"github.com/mohammadbnei/vos-personal-words/internal/service"
-	"github.com/mohammadbnei/vos-personal-words/proto"
+	"github.com/mohammadbnei/vos-template/internal/service"
+	"github.com/mohammadbnei/vos-template/proto"
 )
 
 // Register is used to register the application dependencies.

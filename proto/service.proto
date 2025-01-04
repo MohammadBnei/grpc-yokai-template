@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package personalword;
+package proto;
 
 import "message.proto";
 
@@ -8,15 +8,15 @@ import "message.proto";
 
 service PersonalWordService {
   rpc SaveWord(SaveWordRequest) returns (SaveWordResponse);
-
 }
 
 message SaveWordRequest {
   string word = 1;
   string user_id = 2;
-  string list_id = 3;
+  string list_name = 3;
 }
 
 message SaveWordResponse {
   Word word = 1;
+  List list = 2;
 }

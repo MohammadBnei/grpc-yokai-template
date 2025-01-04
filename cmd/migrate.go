@@ -8,7 +8,7 @@ import (
 	"go.uber.org/fx"
 	"gorm.io/gorm"
 
-	"github.com/mohammadbnei/vos-personal-words/internal/model"
+	"github.com/mohammadbnei/vos-template/internal/model"
 )
 
 func init() {

@@ -4,9 +4,7 @@ kind: Kustomization
 namespace: voc-on-steroid
 
 resources:
-- deployment.yml
-- secret.yml
-- service.yml
+- job.yml
 
 images:
 - name: mohammaddocker/vos-template

@@ -27,17 +27,27 @@ migrate:
 	go run github.com/joho/godotenv/cmd/godotenv@latest -f .env \
 	go run ./... migrate
 
+
 tidy:
 	go mod tidy
 
 logs:
 	docker compose logs -f
 
+.PHONY: build
+build:
+	go build -o ./dist/app
+
+test-ci:
+	go run ./... migrate
+	go test -v -race -cover -count=1 -failfast ./...
+
 test:
+	go run github.com/joho/godotenv/cmd/godotenv@latest -f .env.test \
 	go test -v -race -cover -count=1 -failfast ./...
 
 lint:
-	golangci-lint run -v
+	golangci-lint run --fix
 
 rename:
 	find . -type f ! -path "./.git/*" ! -path "./build/*" ! -path "./Makefile" -exec sed -i.bak -e "s|github.com/ankorstore/yokai-grpc-template|github.com/$(to)|g" {} \;

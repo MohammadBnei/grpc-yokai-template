@@ -4,3 +4,12 @@ modules:
   log:
     level: debug
     output: console
+  grpc:
+    server:
+      address: "localhost:${PORT}"
+  http:
+    server:
+      address: "localhost:8080"
+  core:
+    server:
+      address: "localhost:8082"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/mohammadbnei/vos-personal-words/cmd"
+	"github.com/mohammadbnei/vos-template/cmd"
 )
 
 func main() {
